@@ -1,7 +1,9 @@
 # QVAE
 Official Pytorch implementation of quaternion-valued variational autoencoder (QVAE).
 
-To run QVAE training type on command line:
+QVAE is evaluated on [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+
+To run QVAE training, download CelebA dataset and type:
 
 ```
 python train_midq.py
