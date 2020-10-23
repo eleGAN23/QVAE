@@ -3,7 +3,7 @@ Official Pytorch implementation of quaternion-valued variational autoencoder (QV
 
 To run QVAE training, download [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), install `requirements.txt` and type:
 ```
-python train_q.py
+python train_qvae.py
 ```
 Once trained the model, to generate new samples and reconstructions from the test set, type:
 ```
