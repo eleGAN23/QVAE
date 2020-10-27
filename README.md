@@ -1,5 +1,5 @@
 # QVAE
-Official Pytorch implementation of quaternion-valued variational autoencoder (QVAE).
+Official Pytorch implementation of [Quaternion-Valued Variational Autoencoder](https://arxiv.org/abs/2010.11647) (QVAE).
 
 To run QVAE training, download [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), install `requirements.txt` and type:
 ```
