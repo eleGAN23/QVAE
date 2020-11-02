@@ -71,7 +71,7 @@ def loss_function(recons, input, mu, log_var, kld_weight=opt.kld_weight) -> dict
         Quaternion-valued KL divergence is defined according to the paper.'''
 
     recons_loss = F.binary_cross_entropy(recons, input)
-    kld_loss = torch.mean(0.5 * (torch.sum(log_var.exp() + mu**2 - 1, dim=2)) - 2 * torch.sum(log_var, dim=2), dim=0)
+    kld_loss = torch.mean(0.5 * (torch.sum(log_var.exp() + mu**2 - 1, dim=2)) - 2 * torch.sum(log_var, dim=2)), dim=0)
     kld_loss = torch.sum(kld_loss)
         
     loss = recons_loss + opt.kld_weight * kld_loss

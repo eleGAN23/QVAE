@@ -12,7 +12,7 @@ from PIL import Image
 from torch import nn
 from torch.nn import functional as F
 
-from vanilla_vae_midq import MidQuaternionVanillaVAE
+from vanilla_vae_q import QuaternionVanillaVAE
 from vanilla_vae import VanillaVAE
 
 #pylint:disable=E1101
@@ -96,12 +96,12 @@ def compare_reconstructions(model):
                 save_image_single(i, "RESULTS_EVALUATION/recons_test_VAE_kldi/%i.png" %idx)
 
 if opt.QVAE:
-    model = MidQuaternionVanillaVAE(in_channels=opt.n_channels, latent_dim=opt.latent_dim)
+    model = QuaternionVanillaVAE(in_channels=opt.n_channels, latent_dim=opt.latent_dim)
 else:
     model = VanillaVAE(in_channels=opt.n_channels, latent_dim=opt.latent_dim)
 if opt.cuda:
     torch.cuda.set_device(opt.gpu_num)
-    device = "cuda"
+    device = "cuda:%i" %opt.gpu_num
     model.cuda()
 else:
     device = "cpu"
