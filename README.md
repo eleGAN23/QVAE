@@ -1,5 +1,5 @@
 # QVAE
-Official Pytorch implementation of [Quaternion-Valued Variational Autoencoder](https://arxiv.org/abs/2010.11647) (QVAE) accepted at ICASSP 2021.
+Official Pytorch implementation of [A Quaternion-Valued Variational Autoencoder](https://arxiv.org/abs/2010.11647) (QVAE) accepted at ICASSP 2021.
 
 Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini.
 
