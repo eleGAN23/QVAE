@@ -24,12 +24,17 @@ Quaternion convolutions are borrowed from [Pytorch-Quaternion-Neural-Networks](h
 
 ### Cite
 
-Plese cite our work if you found it useful.
+Plese cite our work if you found it useful:
+
+Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini, " A Quaternion-Valued Variational Autoencoder", in <i>IEEE Int. Conf. on Acoust., Speech and Signal Process. (ICASSP)</i>, Toronto, Canada, Jun. 6-11, 2021.
+
 ```
 @Conference{GrassucciICASSP2021,
   author =    {Grassucci, E. Comminiello, D. and Uncini, A.},
   title =     {A Quaternion-Valued Variational Autoencoder},
   booktitle = {IEEE Int. Conf. on Acoust., Speech and Signal Process. (ICASSP)},
+  address = {Toronto, Canada},
+  month = jun,
   year =      {2021},
 }
 ```
