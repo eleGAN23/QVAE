@@ -10,11 +10,11 @@ Deep probabilistic generative models have achieved incredible success in many fi
 ### Training
 
 To run QVAE training, download [CelebA dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), install `requirements.txt` and type:
-```
+```python
 python train_qvae.py
 ```
 Once trained the model, to generate new samples and reconstructions from the test set, type:
-```
+```python
 python generation.py
 ```
 specify `--QVAE=True` to generate from QVAE.
