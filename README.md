@@ -41,5 +41,5 @@ Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini, " A Quaternion-Value
 
 #### Interested in Quaternion Generative Models?
 
-Check also the Quaternion Generative Adversarial Network [[Paper](https://arxiv.org/pdf/2104.09630.pdf] [[GitHub](https://github.com/eleGAN23/QGAN)].
+Check also the Quaternion Generative Adversarial Network [[Paper](https://arxiv.org/pdf/2104.09630.pdf)] [[GitHub](https://github.com/eleGAN23/QGAN)].
 
