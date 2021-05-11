@@ -1,7 +1,7 @@
 import torch
-from base import *
-from base import BaseVAE
-from quaternion_layers import (QuaternionConv, QuaternionLinear,
+from ..utils.base import *
+from ..utils.base import BaseVAE
+from ..utils.quaternion_layers import (QuaternionConv, QuaternionLinear,
                                QuaternionTransposeConv)
 from torch import nn
 from torch.nn import functional as F

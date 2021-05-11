@@ -2,8 +2,8 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from base import *
-from base import BaseVAE
+from ..utils.base import *
+from ..utils.base import BaseVAE
 
 
 class VanillaVAE(BaseVAE):

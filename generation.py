@@ -12,8 +12,8 @@ from PIL import Image
 from torch import nn
 from torch.nn import functional as F
 
-from vanilla_vae_q import QuaternionVanillaVAE
-from vanilla_vae import VanillaVAE
+from models.vanilla_vae_q import QuaternionVanillaVAE
+from models.vanilla_vae import VanillaVAE
 
 #pylint:disable=E1101
 
