@@ -22,15 +22,9 @@ specify `--QVAE=True` to generate from QVAE.
 
 Quaternion convolutions are borrowed from [Pytorch-Quaternion-Neural-Networks](https://github.com/Orkis-Research/Pytorch-Quaternion-Neural-Networks) by Titouan Parcollet.
 
-## An Information-Theoretic Perspective on Proper Quaternion Variational Autoencoders
-
-Official Pytorch implementation of [An Information-Theoretic Perspective on Proper Quaternion Variational Autoencoders]() submitted to Entropy, May 30, 2021.
-
-The code for this paper is contained in the folder `entropy`. Run the `main.py` which uses the proper and improper signals defined in `datasets.py`. The model is defined in the folder `models`.
-
 ### Cite
 
-Plese cite our works if you found it useful:
+Plese cite our work if you found it useful:
 
 Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini, " A Quaternion-Valued Variational Autoencoder", in <i>IEEE Int. Conf. on Acoust., Speech and Signal Process. (ICASSP)</i>, Toronto, Canada, Jun. 6-11, 2021.
 
@@ -44,6 +38,13 @@ Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini, " A Quaternion-Value
   year =      {2021},
 }
 ```
+
+## An Information-Theoretic Perspective on Proper Quaternion Variational Autoencoders
+
+Official Pytorch implementation of [An Information-Theoretic Perspective on Proper Quaternion Variational Autoencoders]() submitted to Entropy, May 30, 2021.
+
+The code for this paper is contained in the folder `entropy`. Run the `main.py` which uses the proper and improper signals defined in `datasets.py`. The model is defined in the folder `models`.
+
 
 #### Interested in Quaternion Generative Models?
 
