@@ -146,9 +146,7 @@ class QuaternionFCVAE2(BaseVAE):
 
         # Build Encoder with quaternion fc layers
         self.encoder = nn.Sequential(
-            nn.Linear(4, 32),
-            nn.ReLU(),
-            QuaternionLinear(32, 32),
+            QuaternionLinear(4, 32),
             nn.ReLU(),
             QuaternionLinear(32, 64),
             nn.ReLU(),
@@ -177,7 +175,7 @@ class QuaternionFCVAE2(BaseVAE):
             nn.ReLU()
         )
 
-        self.final_layer = nn.Sequential(QuaternionLinear(32, 32), nn.Linear(32, 4))
+        self.final_layer = nn.Sequential(QuaternionLinear(32, 32))
 
     def encode(self, input: Tensor):
         """Encode input images in latent space and compute mean and variance.
