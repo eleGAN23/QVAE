@@ -9,7 +9,7 @@ Deep probabilistic generative models have achieved incredible success in many fi
 
 Architecture of the proposed QVAE.
 
-<img src="./images/QVAE_architecture.pdf" width="433" height="550"/>
+<img src="./images/QVAE_architecture.png">
 
 ### Training
 
