@@ -69,5 +69,7 @@ article-number = {856}
 
 #### Interested in Quaternion Generative Models?
 
-Check also the Quaternion Generative Adversarial Network [[Paper](https://arxiv.org/pdf/2104.09630.pdf)] [[GitHub](https://github.com/eleGAN23/QGAN)].
+Check also: 
 
+* Quaternion Generative Adversarial Network [[Paper](https://arxiv.org/pdf/2104.09630.pdf)] [[GitHub](https://github.com/eleGAN23/QGAN)].
+* Lightweight Convolutional Neural Network by Hypercomplex Parameterization, Under Review at ICLR2021, 2021 [[Paper](https://arxiv.org/pdf/2110.04176.pdf)] [[GitHub](https://github.com/elegan23/hypernets)].
