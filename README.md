@@ -2,7 +2,7 @@
 ## A Quaternion-Valued Variational Autoencoder
 Official Pytorch implementation of [A Quaternion-Valued Variational Autoencoder](https://arxiv.org/abs/2010.11647) (QVAE) accepted as conference paper at ICASSP 2021. 
 
-Eleonora Grassucci, Danilo Comminiello, and Aurelio Uncini.
+[Eleonora Grassucci](https://sites.google.com/view/eleonoragrassucci/home-page?authuser=0), [Danilo Comminiello](https://danilocomminiello.site.uniroma1.it/), and Aurelio Uncini.
 
 ### Abstract
 Deep probabilistic generative models have achieved incredible success in many fields of application. Among such models, variational autoencoders (VAEs) have proved their ability in modeling a generative process by learning a latent representation of the input. In this paper, we propose a novel VAE defined in the quaternion domain, which exploits the properties of quaternion algebra to improve performance while significantly reducing the number of parameters required by the network. The success of the proposed quaternion VAE with respect to traditional VAEs relies on the ability to leverage the internal relations between quaternion-valued input features and on the properties of second-order statistics which allow to define the latent variables in the augmented quaternion domain. In order to show the advantages due to such properties, we define a plain convolutional VAE in the quaternion domain and we evaluate it in comparison with its real-valued counterpart on the CelebA face dataset.
